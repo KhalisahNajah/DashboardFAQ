@@ -1,0 +1,1648 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8013 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/USER/OneDrive/Documents/RTCG/Mercedes/Mini Dashboard Game
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+64940
+Successfully changed project path to: C:/Users/USER/OneDrive/Documents/RTCG/Mercedes/Mini Dashboard Game
+C:/Users/USER/OneDrive/Documents/RTCG/Mercedes/Mini Dashboard Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17496] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2978919012 [EditorId] 2978919012 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17496] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2978919012 [EditorId] 2978919012 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 15.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/OneDrive/Documents/RTCG/Mercedes/Mini Dashboard Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.6221
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013608 seconds.
+- Loaded All Assemblies, in  0.692 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.378 seconds
+Domain Reload Profiling: 1066ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (265ms)
+				TypeCache.ScanAssembly (235ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (378ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (274ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.661 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.608 seconds
+Domain Reload Profiling: 1266ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (145ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (609ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.4 KB). Loaded Objects now: 3619.
+Memory consumption went from 127.1 MB to 127.0 MB.
+Total: 3.020500 ms (FindLiveObjects: 0.250300 ms CreateObjectMapping: 0.194000 ms MarkObjects: 2.457100 ms  DeleteObjects: 0.118300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 229419.776057 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Boss_Design_-_The_Rota_Table_-_L.prefab
+  artifactKey: Guid(2a35d6d8ca457d3498354826f62a8121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Boss_Design_-_The_Rota_Table_-_L.prefab using Guid(2a35d6d8ca457d3498354826f62a8121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11097e0b3965b2292ad1a42d9d2542b2') in 0.329672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.599199 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Dining_Glass_-_Leg.prefab
+  artifactKey: Guid(11dfbe17e19ae514197eb2dec60ece61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Dining_Glass_-_Leg.prefab using Guid(11dfbe17e19ae514197eb2dec60ece61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5709e962bd4a1915f5a4c45f6744b0a1') in 0.162321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 20.264528 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Florence_Knoll_Oval_Large_-_Blac.prefab
+  artifactKey: Guid(408a3e06a77231040b62a6af945ac986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Florence_Knoll_Oval_Large_-_Blac.prefab using Guid(408a3e06a77231040b62a6af945ac986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec2a1021d741047a60586eb6e320609') in 0.109440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Glossy_Round_-_Chrome.prefab
+  artifactKey: Guid(f91e5e6a946d1f44489735896554ed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Glossy_Round_-_Chrome.prefab using Guid(f91e5e6a946d1f44489735896554ed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248ba8e0e0538648c8d7332bf693686a') in 0.091519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Four_-_Black_Laminate.prefab
+  artifactKey: Guid(df6b1c5eb9d83f94db5a441ad5a215e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Four_-_Black_Laminate.prefab using Guid(df6b1c5eb9d83f94db5a441ad5a215e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca01333d174b9df6edc7e4692a9b5736') in 0.085679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ice_Rectangular_-_White_Glass.prefab
+  artifactKey: Guid(b1b3f016568210a4ab513f6ddaa9f8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Ice_Rectangular_-_White_Glass.prefab using Guid(b1b3f016568210a4ab513f6ddaa9f8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b694224299ef86a3eb33d34a5a45e93c') in 0.087773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Jean_Prouve_-_Compass_Table_Leg.prefab
+  artifactKey: Guid(15f862361fc19614e94a2959e7c3ad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Jean_Prouve_-_Compass_Table_Leg.prefab using Guid(15f862361fc19614e94a2959e7c3ad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26591b3f320d33965ed9019e71b38344') in 0.083398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Jean_Nouvel_-_Less_Table_Legs.prefab
+  artifactKey: Guid(43a8ddb3ee0a0064788e355b64fafd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Jean_Nouvel_-_Less_Table_Legs.prefab using Guid(43a8ddb3ee0a0064788e355b64fafd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f975a9edcb0cac443ec6c25725b7dc67') in 0.093321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Four_-_White_Laminate.prefab
+  artifactKey: Guid(73481d7dc07c6f5498c22da92951ef68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Four_-_White_Laminate.prefab using Guid(73481d7dc07c6f5498c22da92951ef68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bde6bdece10ba5a2009cb1d4af034e0') in 0.088822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Glossy_Oval_-_Chrome.prefab
+  artifactKey: Guid(ae4f903c8ba9d8d4ca7df6b648c12518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Glossy_Oval_-_Chrome.prefab using Guid(ae4f903c8ba9d8d4ca7df6b648c12518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fca322735f8d449864e2f3be94dda92') in 0.092236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Glossy_Oval_-_Red.prefab
+  artifactKey: Guid(04e7cc827e42b7c41aa41db8874acf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Glossy_Oval_-_Red.prefab using Guid(04e7cc827e42b7c41aa41db8874acf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab687c0df6667281273f2398fe69dba') in 0.086459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Four_-_White_Laminate.prefab
+  artifactKey: Guid(73481d7dc07c6f5498c22da92951ef68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Four_-_White_Laminate.prefab using Guid(73481d7dc07c6f5498c22da92951ef68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb813a737eab636b8fce61d9028b44e1') in 0.024847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Jens_Risom_-_Natural_Wood.prefab
+  artifactKey: Guid(3c8f348ad73645444a8e126f8d11eb95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Jens_Risom_-_Natural_Wood.prefab using Guid(3c8f348ad73645444a8e126f8d11eb95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fbb141e0ad9de6c3d70e21c36705fe9c') in 0.025352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Florence_Knoll_Oval_Large_-_Blac.prefab
+  artifactKey: Guid(408a3e06a77231040b62a6af945ac986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Florence_Knoll_Oval_Large_-_Blac.prefab using Guid(408a3e06a77231040b62a6af945ac986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '85e752bad274c838c2251c466e612043') in 0.027999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ice_Circular_-_Black_Laminate.prefab
+  artifactKey: Guid(85492ddb0707a6b439f9359fa232cb0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Ice_Circular_-_Black_Laminate.prefab using Guid(85492ddb0707a6b439f9359fa232cb0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2d469761ff64ecf258ca1e88b6c4549') in 0.025334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Gehry_-_Easy_Edges_Table_Cardboa.prefab
+  artifactKey: Guid(ef7e6d8162265c646be1efd7d4abce2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Gehry_-_Easy_Edges_Table_Cardboa.prefab using Guid(ef7e6d8162265c646be1efd7d4abce2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '859430b2c4169542cc7d04b8bb727140') in 0.027881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ice_Circular_-_Chrome_Metal.prefab
+  artifactKey: Guid(7c3c1d569e5b50541bbd1bffcb1be497) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Ice_Circular_-_Chrome_Metal.prefab using Guid(7c3c1d569e5b50541bbd1bffcb1be497) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0fd1121f974006641bfa88f209e0a00') in 0.022938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Four_-_Black_Laminate.prefab
+  artifactKey: Guid(df6b1c5eb9d83f94db5a441ad5a215e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Four_-_Black_Laminate.prefab using Guid(df6b1c5eb9d83f94db5a441ad5a215e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c1ed4158d026c13414a2cba60e00999') in 0.021455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ice_Rectangular_-_Chrome_Metal.prefab
+  artifactKey: Guid(6b667aafbdb57184ba6a3ee7fb2d4868) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Ice_Rectangular_-_Chrome_Metal.prefab using Guid(6b667aafbdb57184ba6a3ee7fb2d4868) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aad196408299f17df0c8783fe30361f6') in 0.031204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ice_Rectangular_-_White_Glass.prefab
+  artifactKey: Guid(b1b3f016568210a4ab513f6ddaa9f8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Ice_Rectangular_-_White_Glass.prefab using Guid(b1b3f016568210a4ab513f6ddaa9f8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ceb6c0ce6752f224c0d5817bbb19e87') in 0.024888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 10.378335 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Kartell_Maui_-_Navy_Black_Metal.prefab
+  artifactKey: Guid(52492793bd30e4244b8cfd933669a68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Kartell_Maui_-_Navy_Black_Metal.prefab using Guid(52492793bd30e4244b8cfd933669a68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19efd8bdc14d227283bbefe65d08a358') in 0.098007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Black_Metal.prefab
+  artifactKey: Guid(f7622e7a72b86414b8f6fb90c9e46d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Black_Metal.prefab using Guid(f7622e7a72b86414b8f6fb90c9e46d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5e48caa129857c69e14a323a9c0c46') in 0.088724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.723530 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Kartell_Maui_-_Navy_Black_Metal.prefab
+  artifactKey: Guid(52492793bd30e4244b8cfd933669a68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Kartell_Maui_-_Navy_Black_Metal.prefab using Guid(52492793bd30e4244b8cfd933669a68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c35548ab3900c85f3f2a8d9ff0489bc8') in 0.019930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Pk54_-_Alabaster.prefab
+  artifactKey: Guid(30e6dff8d9b38b2429c7e54c6c17d247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Pk54_-_Alabaster.prefab using Guid(30e6dff8d9b38b2429c7e54c6c17d247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e5f2d99fc7751f875c0b19cb2b5b1ed') in 0.025169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Chrome_Metal.prefab
+  artifactKey: Guid(75f726c0783fc9442bf0d292a1dae79b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Chrome_Metal.prefab using Guid(75f726c0783fc9442bf0d292a1dae79b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34de95b522a658652cb7a18a3dfa8cb9') in 0.028052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Kartell_Maui_Oval_-_Navy_Black_M.prefab
+  artifactKey: Guid(745aa446230e05b4fb69148d1a62ae1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Kartell_Maui_Oval_-_Navy_Black_M.prefab using Guid(745aa446230e05b4fb69148d1a62ae1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17912b4ebc4cd7cf5b0653f770350916') in 0.025765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Pk54_-_Stainless_Steel.prefab
+  artifactKey: Guid(6fdb3a1f432373c47b53560031351ea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Pk54_-_Stainless_Steel.prefab using Guid(6fdb3a1f432373c47b53560031351ea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1bf3622e326180325f70eab7d625b72e') in 0.025579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Black_Metal.prefab
+  artifactKey: Guid(f7622e7a72b86414b8f6fb90c9e46d00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Black_Metal.prefab using Guid(f7622e7a72b86414b8f6fb90c9e46d00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a870cee51095a4accb7aef68dc933ce') in 0.027699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 12.091228 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Nick_Dining_-_Natural_Wood.prefab
+  artifactKey: Guid(f07079a6ca99f6649b59b7d3f1849da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Nick_Dining_-_Natural_Wood.prefab using Guid(f07079a6ca99f6649b59b7d3f1849da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9479c3cdb0ea953c6a452337866b983') in 0.057702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Concrete.prefab
+  artifactKey: Guid(46295c151bf9aab41a90e4ebf40be5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Concrete.prefab using Guid(46295c151bf9aab41a90e4ebf40be5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1a8ca612c819d96e586a8398daf01d') in 0.087794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Pk54_-_Alabaster.prefab
+  artifactKey: Guid(30e6dff8d9b38b2429c7e54c6c17d247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Pk54_-_Alabaster.prefab using Guid(30e6dff8d9b38b2429c7e54c6c17d247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ba5c08c01c5e45ecfdf186c0231959') in 0.057752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Chrome.prefab
+  artifactKey: Guid(6f98c7893c67bea4aadf178dd5896e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Chrome.prefab using Guid(6f98c7893c67bea4aadf178dd5896e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58bcbe19cdb177caf40dfa47fcb37b9') in 0.046379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 10.388200 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Black_Metal 1.prefab
+  artifactKey: Guid(db45a41f0c9442b4ca09a88e69b97644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Black_Metal 1.prefab using Guid(db45a41f0c9442b4ca09a88e69b97644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab94637561ec90a7c718a1101583b2b') in 0.100974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Wood 1.prefab
+  artifactKey: Guid(22fd7b007632e8c43a4725d5f23e4cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Wood 1.prefab using Guid(22fd7b007632e8c43a4725d5f23e4cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d02fe4463327e3e5904accb2b939e5') in 0.072502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Circular_-_Black_Laminate.prefab
+  artifactKey: Guid(f1e2d897f954cab48a1cad121478b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Circular_-_Black_Laminate.prefab using Guid(f1e2d897f954cab48a1cad121478b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c8adfb6c7391c561dba4d41d63e284') in 0.102731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Maarten_Van_Severen_-_Wood_Table 1.prefab
+  artifactKey: Guid(e21a66daba49e284b87b1d623c1705e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Maarten_Van_Severen_-_Wood_Table 1.prefab using Guid(e21a66daba49e284b87b1d623c1705e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e72d117cd3fceb19661ac6f4068e356') in 0.086382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Circular_-_Chrome.prefab
+  artifactKey: Guid(b3f0d39700af2f54a96a10cf3901d8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Circular_-_Chrome.prefab using Guid(b3f0d39700af2f54a96a10cf3901d8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cf41e46251cf3627da368f56391bae') in 0.101790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Nick_Dining_-_Natural_Wood 1.prefab
+  artifactKey: Guid(3332c88cf25ebe14c88938226d9a4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Nick_Dining_-_Natural_Wood 1.prefab using Guid(3332c88cf25ebe14c88938226d9a4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b47893ade754ad1fb6f4d283d0c0354') in 0.117380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.290460 seconds.
+  path: Assets/Furniture/office-desk/Talble_-_Ice_Square_-_Black_Laminate.prefab
+  artifactKey: Guid(bc6665ec1a581164c97db21a65334514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Talble_-_Ice_Square_-_Black_Laminate.prefab using Guid(bc6665ec1a581164c97db21a65334514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d3423eccea6a8883ee22ba60ed24b32') in 0.021810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Furniture/office-desk/Talble_-_Ice_Square_-_White_Glass.prefab
+  artifactKey: Guid(a05873a1c286eff418edb7c73e0aecf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Talble_-_Ice_Square_-_White_Glass.prefab using Guid(a05873a1c286eff418edb7c73e0aecf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc4e92d3409d32d98187b33cb480450b') in 0.025413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Chrome_Metal 1.prefab
+  artifactKey: Guid(9a645b152afdb984e884270bcfd95598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Chrome_Metal 1.prefab using Guid(9a645b152afdb984e884270bcfd95598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51df434221d60e8fa654572c36c66846') in 0.028221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Black_Laminate 1.prefab
+  artifactKey: Guid(c586bf29aea02584bb20b9d06f5b93c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Black_Laminate 1.prefab using Guid(c586bf29aea02584bb20b9d06f5b93c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a559e4602d1d4174a61503e0ff2a10e1') in 0.030288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Glass 1.prefab
+  artifactKey: Guid(5d4688d18f450204f80c2c82c7ba0121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Glass 1.prefab using Guid(5d4688d18f450204f80c2c82c7ba0121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11c52624148d4f9f71c03d9c4acc6e4c') in 0.029964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Eliliptical_Span_Leg_-_Chr.prefab
+  artifactKey: Guid(07f7f27ae08fd0b499a6ea2687ee2cc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Eliliptical_Span_Leg_-_Chr.prefab using Guid(07f7f27ae08fd0b499a6ea2687ee2cc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0304427e302567f08e18b4fbcfa6ddcc') in 0.027118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Stainless_Ste 1.prefab
+  artifactKey: Guid(6d18c0a76c43e224ba78e045093e7a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Stainless_Ste 1.prefab using Guid(6d18c0a76c43e224ba78e045093e7a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ea99cfedb48ddb52dc8fab323cc23af') in 0.025836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Glossy_Round_-_Red 2.prefab
+  artifactKey: Guid(822ac759436710040b2475a9a76e9d93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Glossy_Round_-_Red 2.prefab using Guid(822ac759436710040b2475a9a76e9d93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e812faca754ab029cfd2cbcc538442f') in 0.021646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Circular_-_Black_Laminate.prefab
+  artifactKey: Guid(f1e2d897f954cab48a1cad121478b931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Circular_-_Black_Laminate.prefab using Guid(f1e2d897f954cab48a1cad121478b931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a274cd38ef08baf2c6f104e383c7f84') in 0.027094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture/office-desk/Talble_-_82_-_Wood.prefab
+  artifactKey: Guid(8550e9a9af33a0347b4f9a166215ef4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Talble_-_82_-_Wood.prefab using Guid(8550e9a9af33a0347b4f9a166215ef4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5dcd135685f5f6f37468bbf46b37ea66') in 0.023879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_White_Laminate 1.prefab
+  artifactKey: Guid(d858e5a1dba57b140a51695056f22e1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_White_Laminate 1.prefab using Guid(d858e5a1dba57b140a51695056f22e1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2029047370b16dd87ecfe16481d547de') in 0.028366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_C.prefab
+  artifactKey: Guid(76f3e3dfe7f1ffa44bbf71d9c71e5858) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_C.prefab using Guid(76f3e3dfe7f1ffa44bbf71d9c71e5858) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6df16259d96f20f2480453846597466') in 0.028925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_B.prefab
+  artifactKey: Guid(0916a3f10d8355d44bdf754e4c98362d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_B.prefab using Guid(0916a3f10d8355d44bdf754e4c98362d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe243d532fe33056ee17b1a7bbdd84ab') in 0.026095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 12.325240 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Eliliptical_Span_Leg_-_Chr.prefab
+  artifactKey: Guid(07f7f27ae08fd0b499a6ea2687ee2cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Eliliptical_Span_Leg_-_Chr.prefab using Guid(07f7f27ae08fd0b499a6ea2687ee2cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a14639a2e9c35ff2e7aefb83028905') in 0.062006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Furniture/office-desk/Table_-_X_-_Chrome.prefab
+  artifactKey: Guid(e1c734ac74183e44a8550198f74276ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_X_-_Chrome.prefab using Guid(e1c734ac74183e44a8550198f74276ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3023b3e60298ebd52e1e79e777192af7') in 0.072963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_W.prefab
+  artifactKey: Guid(e382b0641fc16a9418b109217c4c3081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_W.prefab using Guid(e382b0641fc16a9418b109217c4c3081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecba1ef8a979b371f8832fadf0c60ea') in 0.065219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Furniture/office-desk/Table_-_X_-_Wood.prefab
+  artifactKey: Guid(112b143ab2eb22e40bd9cebf9b1e1ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_X_-_Wood.prefab using Guid(112b143ab2eb22e40bd9cebf9b1e1ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1dc000335548a383fd4bf561497290e') in 0.049544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.021703 seconds.
+  path: Assets/Furniture/office-desk/Talble_-_82_-_Wood.prefab
+  artifactKey: Guid(8550e9a9af33a0347b4f9a166215ef4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Talble_-_82_-_Wood.prefab using Guid(8550e9a9af33a0347b4f9a166215ef4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016062712a196ccbf0e6f6b15b2bb0a2') in 0.078200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Furniture/office-desk/Talble_-_Ice_Square_-_Chrome.prefab
+  artifactKey: Guid(d6d2f99a17dfbf34e8a5d0123f5bc3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Talble_-_Ice_Square_-_Chrome.prefab using Guid(d6d2f99a17dfbf34e8a5d0123f5bc3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846b674b40dcc6ca075c21238a3c62a4') in 0.073789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 3.164392 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Chrome_Metal 2.prefab
+  artifactKey: Guid(0068fde253f42cb4ca359b81234f0e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Chrome_Metal 2.prefab using Guid(0068fde253f42cb4ca359b81234f0e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb090da9d4dc157ac3e3b4cd0692c61') in 0.087016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_White_Laminate 2.prefab
+  artifactKey: Guid(91d198a0e0165c047aae0f9f6ecb84d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_White_Laminate 2.prefab using Guid(91d198a0e0165c047aae0f9f6ecb84d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb6431af843647069f3dc246864a333') in 0.088247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Concrete 2.prefab
+  artifactKey: Guid(ed31ddc810829344a8a1f70d7bd2d7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Concrete 2.prefab using Guid(ed31ddc810829344a8a1f70d7bd2d7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b43f7abdb5e9e580b851c6f4552793') in 0.084592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Chrome 2.prefab
+  artifactKey: Guid(f261677f537e50a439b35b3663292073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Chrome 2.prefab using Guid(f261677f537e50a439b35b3663292073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4453c38f1818ba83ddceb8aae83f430f') in 0.087894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Prouvé_Em_-_Black_Frame.prefab
+  artifactKey: Guid(3fbbe063f68f3a04c9f6bf87ad20ed64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Prouvé_Em_-_Black_Frame.prefab using Guid(3fbbe063f68f3a04c9f6bf87ad20ed64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db36cded13dc0f09f1f050d359036ac7') in 0.077256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.428334 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Span_Leg_-_White_Laminate.prefab
+  artifactKey: Guid(21b23339bfc5bc447869d06d0160e828) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Span_Leg_-_White_Laminate.prefab using Guid(21b23339bfc5bc447869d06d0160e828) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d46bca2b9235e372d80d160f5786862') in 0.019591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Circular_-_Wood 1.prefab
+  artifactKey: Guid(740b256c301fd9e4aa46d5ab33bcde58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Circular_-_Wood 1.prefab using Guid(740b256c301fd9e4aa46d5ab33bcde58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa58cbbe84dce8859d4e12ac1575cdb3') in 0.025438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Furniture/office-desk/Talble_-_82_-_Black_Laminate 1.prefab
+  artifactKey: Guid(b0da1fa8f7d42b64b8d7406b538ace91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Talble_-_82_-_Black_Laminate 1.prefab using Guid(b0da1fa8f7d42b64b8d7406b538ace91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5bf27621211e5f7ebeca9a399a152b4') in 0.038839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Span_Leg_-_Chrome.prefab
+  artifactKey: Guid(e7da577e218383b4a814a6bc9d538521) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Span_Leg_-_Chrome.prefab using Guid(e7da577e218383b4a814a6bc9d538521) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '910e9a4b2e10bda51a029e665ded1596') in 0.031661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_C 1.prefab
+  artifactKey: Guid(bf3cdc8e5e45d1f43a4f5d6c93bc6a4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_C 1.prefab using Guid(bf3cdc8e5e45d1f43a4f5d6c93bc6a4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68394554dc46d0313ef8da0803f2f70a') in 0.024535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Furniture/office-desk/Table_-_X_-_Wood 1.prefab
+  artifactKey: Guid(10cea31f5f863d641a3a295edc7bc9ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_X_-_Wood 1.prefab using Guid(10cea31f5f863d641a3a295edc7bc9ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4e9491fe4db4f60b6a9e1f7dc3cf3d1') in 0.029194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Maarten_Van_Severen_-_Wood_Table 2.prefab
+  artifactKey: Guid(cc45da8f3418de04b95137d24391974a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Maarten_Van_Severen_-_Wood_Table 2.prefab using Guid(cc45da8f3418de04b95137d24391974a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '40f9dfc3bc10bc152b98dee050510713') in 0.028589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_W 1.prefab
+  artifactKey: Guid(e26081d84c3303f40aca805e45a3a435) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_W 1.prefab using Guid(e26081d84c3303f40aca805e45a3a435) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7fd26d30a488e03e30fc2d967b046ac') in 0.030206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Prouvé_Guéridon_-_White.prefab
+  artifactKey: Guid(30a74335a1fa69241b83300d125ddae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Prouvé_Guéridon_-_White.prefab using Guid(30a74335a1fa69241b83300d125ddae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf712b6fa3b6d9150ac99c8a2869cc09') in 0.026928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Eliliptical_Span_Leg_-_Chr 1.prefab
+  artifactKey: Guid(d31fd5d37424aa741aebe37a6ad52395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Eliliptical_Span_Leg_-_Chr 1.prefab using Guid(d31fd5d37424aa741aebe37a6ad52395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8b1e3f58d903a785f50d1482a4dbc01') in 0.028002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Prouvé_Em_-_Wood.prefab
+  artifactKey: Guid(2d901c0d902d4aa449d48f9e5340e6d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Prouvé_Em_-_Wood.prefab using Guid(2d901c0d902d4aa449d48f9e5340e6d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37f78438453a057714e6e8f4aab1158d') in 0.027390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Large_Pedestral_Base_Circular_To 2.prefab
+  artifactKey: Guid(c2a9356e9b4c70d4d9dcf6fde0e93795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Large_Pedestral_Base_Circular_To 2.prefab using Guid(c2a9356e9b4c70d4d9dcf6fde0e93795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e759824b15e1f14a74b03fa6d7c3f481') in 0.023856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Black_Metal 2.prefab
+  artifactKey: Guid(768239cc316be5c478ce24be0e62b4cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Black_Metal 2.prefab using Guid(768239cc316be5c478ce24be0e62b4cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96aff91a7171ed5ceba23b8c18ece958') in 0.028393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Wood 2.prefab
+  artifactKey: Guid(62dead93d2357604a9169b3b4d992984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Wood 2.prefab using Guid(62dead93d2357604a9169b3b4d992984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a9d705803903da4389990e3632281e0') in 0.034329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Tossa_Team_-_Exo_Table_Top 1.prefab
+  artifactKey: Guid(82749297092d4964fa4b236f99336773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Tossa_Team_-_Exo_Table_Top 1.prefab using Guid(82749297092d4964fa4b236f99336773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b50053248d1dead8c754012adb9ec27') in 0.032930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ta04_Bigfoot_-_Wood 1.prefab
+  artifactKey: Guid(fa683b7b4ef32e04d84b9f128f4a2db9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Ta04_Bigfoot_-_Wood 1.prefab using Guid(fa683b7b4ef32e04d84b9f128f4a2db9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a377314850adb94dda2fb2c872d7e14') in 0.029198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Chrome 2.prefab
+  artifactKey: Guid(eacac677b08041d4083fbcbfd4d3ac9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Chrome 2.prefab using Guid(eacac677b08041d4083fbcbfd4d3ac9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f3069a82eaedff30a38ff7ed2c1a59b2') in 0.031098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Furniture/office-desk/Talble_-_Ice_Square_-_Chrome 1.prefab
+  artifactKey: Guid(ae3683cae26456944b94788dba818c3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Talble_-_Ice_Square_-_Chrome 1.prefab using Guid(ae3683cae26456944b94788dba818c3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1cc1828a2befe28f9827772ec64f4a8a') in 0.028148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Prouvé_Guéridon_-_Black_Metal.prefab
+  artifactKey: Guid(db2495301a5e4be4598c62120d35aeef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Prouvé_Guéridon_-_Black_Metal.prefab using Guid(db2495301a5e4be4598c62120d35aeef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a3b85ea4592ebfd7df9d5c606303d36') in 0.024159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Russel_Dining_-_Wood.prefab
+  artifactKey: Guid(5132dd170eafe8243a18cbdad0a3fc4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Russel_Dining_-_Wood.prefab using Guid(5132dd170eafe8243a18cbdad0a3fc4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5dd0ca4bd193e2344e5c53b2bc88a9b0') in 0.031807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Sprout_Dining_-_Chrome.prefab
+  artifactKey: Guid(067e2f9794996094ea438229ad057b87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Sprout_Dining_-_Chrome.prefab using Guid(067e2f9794996094ea438229ad057b87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3a63f6288b222554002a7dba8be193d') in 0.025495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Black_Laminate 2.prefab
+  artifactKey: Guid(cfc4ec4e9b922054a9716960bd9227ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Black_Laminate 2.prefab using Guid(cfc4ec4e9b922054a9716960bd9227ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '91d72c3cd9b6be3ffa1440e78b1975c9') in 0.027120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 24.639542 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Rectangular_Span_Leg_-_Chrome.prefab
+  artifactKey: Guid(1f1f07fdedbb38242ad4c4335250fdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Rectangular_Span_Leg_-_Chrome.prefab using Guid(1f1f07fdedbb38242ad4c4335250fdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd7ffe40219bb44c527705bd5699be0') in 0.078881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Square_4_Star_-_Wood.prefab
+  artifactKey: Guid(16833c9538cf26646944f3f610ed9586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Square_4_Star_-_Wood.prefab using Guid(16833c9538cf26646944f3f610ed9586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352a0456cc89ee20d4317f1b94ac671b') in 0.084868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Circular_-_Black_Laminate 1.prefab
+  artifactKey: Guid(88a447ff72098ef4b9f62273bbc59c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Circular_-_Black_Laminate 1.prefab using Guid(88a447ff72098ef4b9f62273bbc59c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49546b196751680f096a50697c2d4d9') in 0.078350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Saarinen_42_Dia_-_White_Laminate.prefab
+  artifactKey: Guid(797cb16e0d451134b80208650e88d3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Saarinen_42_Dia_-_White_Laminate.prefab using Guid(797cb16e0d451134b80208650e88d3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112aa0367a2b6489a2417ad0bffe0bcb') in 0.081043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Circular_-_Chrome 1.prefab
+  artifactKey: Guid(f0a07913bd60758478a07da53ad7d757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Circular_-_Chrome 1.prefab using Guid(f0a07913bd60758478a07da53ad7d757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaf435dc9f54cd9a83e140c261c33d6') in 0.079294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Span_Leg_-_White_Laminate.prefab
+  artifactKey: Guid(21b23339bfc5bc447869d06d0160e828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Span_Leg_-_White_Laminate.prefab using Guid(21b23339bfc5bc447869d06d0160e828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898af1a4683bcee12d327b8ad1e5c43e') in 0.081409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Saarinen_54_Dia_-_White_Laminate.prefab
+  artifactKey: Guid(b4560bc1dae5ccd49ae0372cc342d72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Saarinen_54_Dia_-_White_Laminate.prefab using Guid(b4560bc1dae5ccd49ae0372cc342d72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626095544de13e84714823bd3f482a11') in 0.078079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_B 1.prefab
+  artifactKey: Guid(a9b86b03ffbae154ab19947cf80b0f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_B 1.prefab using Guid(a9b86b03ffbae154ab19947cf80b0f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78c93d3c5cc682d64ccc8cd855e9606') in 0.083415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_C 1.prefab
+  artifactKey: Guid(bf3cdc8e5e45d1f43a4f5d6c93bc6a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_C 1.prefab using Guid(bf3cdc8e5e45d1f43a4f5d6c93bc6a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fede0d52009f6c1b27fb0cdcfe0938') in 0.085285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Saarinen_96x54_-_White_Laminate.prefab
+  artifactKey: Guid(611729839e8509548808e6e99cfff7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Saarinen_96x54_-_White_Laminate.prefab using Guid(611729839e8509548808e6e99cfff7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4491206494cbc832f33e110759455072') in 0.085889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_W 1.prefab
+  artifactKey: Guid(e26081d84c3303f40aca805e45a3a435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_W 1.prefab using Guid(e26081d84c3303f40aca805e45a3a435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1bddda9c9052d6d3f6b4b79f75ea21') in 0.089466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 1.170691 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Stainless_Ste 2.prefab
+  artifactKey: Guid(9f62ca4d5624de64ebd2e3c443e32aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Stainless_Ste 2.prefab using Guid(9f62ca4d5624de64ebd2e3c443e32aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa708d2552af8974245e4f40e155af5') in 0.085733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.402261 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Kartell_Maui_Oval_-_Navy_Black_M 2.prefab
+  artifactKey: Guid(3c55b67a27ffe974682e61b4d7479756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Kartell_Maui_Oval_-_Navy_Black_M 2.prefab using Guid(3c55b67a27ffe974682e61b4d7479756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376d627877d70bca038b0fdd9d5972f2') in 0.077867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.020439 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Kartell_Maui_-_Navy_Black_Metal 1.prefab
+  artifactKey: Guid(d130aeeb2ba6d16489265198664b82cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Kartell_Maui_-_Navy_Black_Metal 1.prefab using Guid(d130aeeb2ba6d16489265198664b82cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94159f0bd0bf8dff7425b320cf9231f2') in 0.086786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.236455 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Glossy_Round_-_Red 3.prefab
+  artifactKey: Guid(ef7842afc7ba79b42a05f27dcc3fac28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Glossy_Round_-_Red 3.prefab using Guid(ef7842afc7ba79b42a05f27dcc3fac28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b225ecb5468fcc64c952e7e7a02fcdb6') in 0.069283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.540 seconds
+Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.584 seconds
+Domain Reload Profiling: 2121ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1585ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (506ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3630.
+Memory consumption went from 131.2 MB to 131.2 MB.
+Total: 3.547500 ms (FindLiveObjects: 0.293100 ms CreateObjectMapping: 0.218900 ms MarkObjects: 2.905800 ms  DeleteObjects: 0.128600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.804 seconds
+Refreshing native plugins compatible for Editor in 5.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.469 seconds
+Domain Reload Profiling: 2269ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (464ms)
+		LoadAssemblies (548ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1470ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (534ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (411ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3633.
+Memory consumption went from 133.4 MB to 133.4 MB.
+Total: 5.957400 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.243300 ms MarkObjects: 4.741200 ms  DeleteObjects: 0.643300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.528 seconds
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.185 seconds
+Domain Reload Profiling: 1710ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (356ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1186ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (536ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3636.
+Memory consumption went from 135.4 MB to 135.3 MB.
+Total: 3.757600 ms (FindLiveObjects: 0.326900 ms CreateObjectMapping: 0.285900 ms MarkObjects: 3.079200 ms  DeleteObjects: 0.064400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.549 seconds
+Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.064 seconds
+Domain Reload Profiling: 1610ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1065ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (503ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (394ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3639.
+Memory consumption went from 137.3 MB to 137.3 MB.
+Total: 3.839000 ms (FindLiveObjects: 0.259600 ms CreateObjectMapping: 0.242600 ms MarkObjects: 3.255300 ms  DeleteObjects: 0.060900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.549 seconds
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.439 seconds
+Domain Reload Profiling: 1985ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (381ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1440ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (506ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3642.
+Memory consumption went from 139.2 MB to 139.2 MB.
+Total: 5.246400 ms (FindLiveObjects: 0.842100 ms CreateObjectMapping: 0.361900 ms MarkObjects: 3.949200 ms  DeleteObjects: 0.092100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.532 seconds
+Refreshing native plugins compatible for Editor in 4.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.156 seconds
+Domain Reload Profiling: 1685ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (348ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (554ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3645.
+Memory consumption went from 141.2 MB to 141.1 MB.
+Total: 6.372400 ms (FindLiveObjects: 0.421700 ms CreateObjectMapping: 0.520200 ms MarkObjects: 5.332600 ms  DeleteObjects: 0.096500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.510 seconds
+Refreshing native plugins compatible for Editor in 4.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.080 seconds
+Domain Reload Profiling: 1586ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1080ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (524ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (408ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 5.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3648.
+Memory consumption went from 143.1 MB to 143.1 MB.
+Total: 3.129800 ms (FindLiveObjects: 0.311300 ms CreateObjectMapping: 0.256700 ms MarkObjects: 2.499400 ms  DeleteObjects: 0.061500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.484 seconds
+Refreshing native plugins compatible for Editor in 4.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.097 seconds
+Domain Reload Profiling: 1578ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1097ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3651.
+Memory consumption went from 145.0 MB to 145.0 MB.
+Total: 3.627800 ms (FindLiveObjects: 0.420500 ms CreateObjectMapping: 0.410100 ms MarkObjects: 2.714200 ms  DeleteObjects: 0.082300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.504 seconds
+Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.092 seconds
+Domain Reload Profiling: 1594ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1093ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (524ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3654.
+Memory consumption went from 146.9 MB to 146.9 MB.
+Total: 2.743800 ms (FindLiveObjects: 0.255100 ms CreateObjectMapping: 0.217000 ms MarkObjects: 2.204200 ms  DeleteObjects: 0.066700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1309.734238 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981d207ad5fa767bb01c0dcce0b5a1ad') in 0.221491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.654 seconds
+Refreshing native plugins compatible for Editor in 5.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.127 seconds
+Domain Reload Profiling: 1778ms
+	BeginReloadAssembly (238ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (413ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1128ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (530ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3693.
+Memory consumption went from 148.9 MB to 148.9 MB.
+Total: 2.886500 ms (FindLiveObjects: 0.284600 ms CreateObjectMapping: 0.242400 ms MarkObjects: 2.313600 ms  DeleteObjects: 0.044800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

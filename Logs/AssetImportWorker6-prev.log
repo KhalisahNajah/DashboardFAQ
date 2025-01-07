@@ -1,0 +1,1388 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8013 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/USER/OneDrive/Documents/RTCG/Mercedes/Mini Dashboard Game
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+64940
+Successfully changed project path to: C:/Users/USER/OneDrive/Documents/RTCG/Mercedes/Mini Dashboard Game
+C:/Users/USER/OneDrive/Documents/RTCG/Mercedes/Mini Dashboard Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16992] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2933789201 [EditorId] 2933789201 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16992] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2933789201 [EditorId] 2933789201 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 1778.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/OneDrive/Documents/RTCG/Mercedes/Mini Dashboard Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.6221
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.296395 seconds.
+- Loaded All Assemblies, in  7.456 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.287 seconds
+Domain Reload Profiling: 7741ms
+	BeginReloadAssembly (5509ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (452ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (350ms)
+	LoadAllAssembliesAndSetupDomain (1131ms)
+		LoadAssemblies (5506ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1129ms)
+			TypeCache.Refresh (1125ms)
+				TypeCache.ScanAssembly (832ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (288ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (228ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.672 seconds
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.710 seconds
+Domain Reload Profiling: 7374ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (6424ms)
+		LoadAssemblies (5810ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (706ms)
+			TypeCache.Refresh (684ms)
+				TypeCache.ScanAssembly (609ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (710ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (558ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (456ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3619.
+Memory consumption went from 127.1 MB to 127.1 MB.
+Total: 3.511300 ms (FindLiveObjects: 0.246000 ms CreateObjectMapping: 0.191200 ms MarkObjects: 2.989000 ms  DeleteObjects: 0.084200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 229327.647143 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/C_floor_2x1_2.prefab
+  artifactKey: Guid(92e2c22e7de73cd4a88301fcf2eb04b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/C_floor_2x1_2.prefab using Guid(92e2c22e7de73cd4a88301fcf2eb04b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ab387076c3d03b7effcd8657060b4c') in 0.498330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 192
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/OLD_С_ceiling_2x1_2.prefab
+  artifactKey: Guid(95dcb255dc1d00140a7ccaaf41fdfc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/OLD_С_ceiling_2x1_2.prefab using Guid(95dcb255dc1d00140a7ccaaf41fdfc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719aa6ea752d09ed45be562934a4a6d0') in 0.042368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 192
+========================================================================
+Received Import Request.
+  Time since last request: 0.351703 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/M_floor_2x1_2.prefab
+  artifactKey: Guid(ee6a8c2af66cf4c4f8e4ef32804356fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/M_floor_2x1_2.prefab using Guid(ee6a8c2af66cf4c4f8e4ef32804356fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0ad9889fe0d3702dd99702b1d57cf0d') in 0.173205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/L_floor_2x2_2.prefab
+  artifactKey: Guid(d40fa17dc51abf84bb5a0079e8edf05c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/L_floor_2x2_2.prefab using Guid(d40fa17dc51abf84bb5a0079e8edf05c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a79a2e964079a0a90ccdffbe5e3a014f') in 0.030876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/Bunker_C_floor_2x2_2 1.prefab
+  artifactKey: Guid(2f153800e7593f54bb6b92986ab28b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/Bunker_C_floor_2x2_2 1.prefab using Guid(2f153800e7593f54bb6b92986ab28b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2dc9bc5251788bffe9d60481d87479b') in 0.027810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/OLD_С_ceiling_2x1_2.prefab
+  artifactKey: Guid(95dcb255dc1d00140a7ccaaf41fdfc29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/OLD_С_ceiling_2x1_2.prefab using Guid(95dcb255dc1d00140a7ccaaf41fdfc29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fcdd251b44b6557c486b8c815e99b201') in 0.025793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/M2_floor_2x1_2.prefab
+  artifactKey: Guid(b66bf303cf0a21a4291536e51fb4f2af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/M2_floor_2x1_2.prefab using Guid(b66bf303cf0a21a4291536e51fb4f2af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6152705ff5c0fc7d047acbc0ce4aebb2') in 0.025499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/OLD_M_floor_2x1_2.prefab
+  artifactKey: Guid(3b84c2ea7859df74c8cd8f3c4bb0e879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/OLD_M_floor_2x1_2.prefab using Guid(3b84c2ea7859df74c8cd8f3c4bb0e879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ca1310c6407dccd1436cfdde3ff00b3') in 0.029027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 7.914865 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_ceiling_2x2_2.prefab
+  artifactKey: Guid(99dc407552538ab4eb6e7ecd08d527f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_ceiling_2x2_2.prefab using Guid(99dc407552538ab4eb6e7ecd08d527f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ff2129938cede2d050b3139b866975') in 0.043013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 192
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_ceiling_2x2_2.002.prefab
+  artifactKey: Guid(10451d22d566d244482f660a239ae738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_ceiling_2x2_2.002.prefab using Guid(10451d22d566d244482f660a239ae738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bf2fff86118105dabda6db8882585d') in 0.035119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 192
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/С_ceiling_2x2_2.prefab
+  artifactKey: Guid(71b06589c65d11446b2b96459dec4601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/С_ceiling_2x2_2.prefab using Guid(71b06589c65d11446b2b96459dec4601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6894949aa2779a4831c8e7ac1bfe372') in 0.038546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 192
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/С_ceiling_2x1_2.prefab
+  artifactKey: Guid(fabe065b5bc441041b658c750eac0ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/С_ceiling_2x1_2.prefab using Guid(fabe065b5bc441041b658c750eac0ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59aebd763bd9ada6b8c75b31b41bfd1') in 0.044743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 192
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/W_floor_2x2_1.prefab
+  artifactKey: Guid(3f006e18ce0d3a841bd748324b6b1d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/W_floor_2x2_1.prefab using Guid(3f006e18ce0d3a841bd748324b6b1d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1426cbdb394504523972a7c279063ece') in 0.033011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 192
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_ceiling_2x2_2.003.prefab
+  artifactKey: Guid(6888e5fbe10ec1744a319bad84566844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_ceiling_2x2_2.003.prefab using Guid(6888e5fbe10ec1744a319bad84566844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0b9480a923a6affb504b2e69f5ffa5') in 0.041551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 192
+========================================================================
+Received Import Request.
+  Time since last request: 0.683795 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_ceiling_2x2_2.004.prefab
+  artifactKey: Guid(8625b6c9a70beca48bfeba3b1e8e161f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_ceiling_2x2_2.004.prefab using Guid(8625b6c9a70beca48bfeba3b1e8e161f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '33ddf8d2ebf8e6ff8204526887d08c1b') in 0.021070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/W_floor_2x1_1.prefab
+  artifactKey: Guid(4028a29973c30ba4eaa3a4c4453061f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/W_floor_2x1_1.prefab using Guid(4028a29973c30ba4eaa3a4c4453061f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b2066df662c5dad2f4253a8356a8251') in 0.020080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/OLD_W_floor_2x1_3 1.prefab
+  artifactKey: Guid(2cf0098e75f5d9345b9565fba18f26aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/OLD_W_floor_2x1_3 1.prefab using Guid(2cf0098e75f5d9345b9565fba18f26aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '40f86341dd58f8166c703c902338d3ca') in 0.020617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_ceiling_2x1_2.prefab
+  artifactKey: Guid(d1fb91c1832903d46aa94fcbbaf08f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_ceiling_2x1_2.prefab using Guid(d1fb91c1832903d46aa94fcbbaf08f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96ec311a894bbbd08289999fc1de0881') in 0.022582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/W_floor_2x2_1.prefab
+  artifactKey: Guid(3f006e18ce0d3a841bd748324b6b1d2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/W_floor_2x2_1.prefab using Guid(3f006e18ce0d3a841bd748324b6b1d2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ead7b16ee4ff7b01fcda19717eb7df76') in 0.027525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_floor_2x2_3.prefab
+  artifactKey: Guid(7a943d38e89516147823334c5861bfc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_floor_2x2_3.prefab using Guid(7a943d38e89516147823334c5861bfc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b97878e87dbf94707bbe6aec3e44c91') in 0.026191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_ceiling_2x2_2.002.prefab
+  artifactKey: Guid(10451d22d566d244482f660a239ae738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/floors-and-ceiling-modular-construction-pack/source/P_ceiling_2x2_2.002.prefab using Guid(10451d22d566d244482f660a239ae738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f38e189f4ddd4fab5169d684c363ad1a') in 0.023611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 72.029472 seconds.
+  path: Assets/Furniture/office-desk/Stool_-_Blu_Dot_-_Knicker_Barstool_Legs.prefab
+  artifactKey: Guid(aa93c48c08164c04892e3582b168f0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Stool_-_Blu_Dot_-_Knicker_Barstool_Legs.prefab using Guid(aa93c48c08164c04892e3582b168f0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc53c96f74590ab7d8a46c2bf91ecb61') in 0.227438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Furniture/office-desk/Stool_-_Tai_-_Bar_Stool_Seat.prefab
+  artifactKey: Guid(cc0491a981f64e7478586914fdec5b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Stool_-_Tai_-_Bar_Stool_Seat.prefab using Guid(cc0491a981f64e7478586914fdec5b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c658e6fb4c19ef7e4728ed04b1f8aa4') in 0.084418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Furniture/office-desk/Table_-_A.G.Fronzoni_-_Fronzoni_'64__FR2.prefab
+  artifactKey: Guid(85f2ac76b43a29e4f9d4a0b88c72c76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_A.G.Fronzoni_-_Fronzoni_'64__FR2.prefab using Guid(85f2ac76b43a29e4f9d4a0b88c72c76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393d592c419e42144e2c5eca4c203c8b') in 0.077938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Furniture/office-desk/Stool_-_Tai_Bar_Legs.prefab
+  artifactKey: Guid(1acaed8219bd0cc4eb82dd1df0bd3c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Stool_-_Tai_Bar_Legs.prefab using Guid(1acaed8219bd0cc4eb82dd1df0bd3c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c292f7c881a1e4a3ac0eed06b20fc0') in 0.092134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Furniture/office-desk/Stool_-_Pierre_Paulin_-_Mushroom_Stool_S.prefab
+  artifactKey: Guid(4b90d1702b510704da225d32b3231668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Stool_-_Pierre_Paulin_-_Mushroom_Stool_S.prefab using Guid(4b90d1702b510704da225d32b3231668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44f5fe7134911ae37b4ee5f9671f7bf') in 0.082615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Furniture/office-desk/Table_-_6_Star_Super_Circular_-__Wood.prefab
+  artifactKey: Guid(05ad6c6805b792c429e2ef47d6c0afc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_6_Star_Super_Circular_-__Wood.prefab using Guid(05ad6c6805b792c429e2ef47d6c0afc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0f96811169aed02d670aecc829029c') in 0.089552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Furniture/office-desk/Stool_-_Jim_-_Bartstool_Seat.prefab
+  artifactKey: Guid(35e54f79c1bb32241890043e90915805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Stool_-_Jim_-_Bartstool_Seat.prefab using Guid(35e54f79c1bb32241890043e90915805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4e5beb8b115e51100ebf44456203b2') in 0.089229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Furniture/office-desk/Table_-_003_Atlantico_Oak_-_Wood.prefab
+  artifactKey: Guid(653fd5365ad28ce4b92fb8020fe29780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_003_Atlantico_Oak_-_Wood.prefab using Guid(653fd5365ad28ce4b92fb8020fe29780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdbf48fbe5cec6711405426e01ba781') in 0.097322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Furniture/office-desk/Table_-_6_Star_Super_Circular_-_Chrome.prefab
+  artifactKey: Guid(db87eee9124f7b14bbd9f1919169b33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_6_Star_Super_Circular_-_Chrome.prefab using Guid(db87eee9124f7b14bbd9f1919169b33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d17d95056f17e02378663f28bf9ec4e') in 0.093802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Furniture/office-desk/Table_-_6_Star_Super_Circular_-__Wood.prefab
+  artifactKey: Guid(05ad6c6805b792c429e2ef47d6c0afc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_6_Star_Super_Circular_-__Wood.prefab using Guid(05ad6c6805b792c429e2ef47d6c0afc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c92964ba85f6751ec38f151fc1d6c6cd') in 0.036656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Furniture/office-desk/Stool_-_Tai_Bar_Legs.prefab
+  artifactKey: Guid(1acaed8219bd0cc4eb82dd1df0bd3c98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Stool_-_Tai_Bar_Legs.prefab using Guid(1acaed8219bd0cc4eb82dd1df0bd3c98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '812cfb070b629370ee64a0ed03798397') in 0.036242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture/office-desk/Stool_-_Tai_Bar_Seat.prefab
+  artifactKey: Guid(56c746c5a5a9f8042b60616ccbe9bfe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Stool_-_Tai_Bar_Seat.prefab using Guid(56c746c5a5a9f8042b60616ccbe9bfe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b17f60aae3dacbcb37ac66f11c2288ab') in 0.032199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Allain_Gilles_-_Tectonic_Table.prefab
+  artifactKey: Guid(2e6febae4d653954eae6de586b849662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Allain_Gilles_-_Tectonic_Table.prefab using Guid(2e6febae4d653954eae6de586b849662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39108c111e0ab99fd26087a56d9334b7') in 0.035230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Atlantico_-_004_Atlantico_Table_.prefab
+  artifactKey: Guid(b241e1904667c0045b6e65ae33007b64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Atlantico_-_004_Atlantico_Table_.prefab using Guid(b241e1904667c0045b6e65ae33007b64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1a2a1814eee92d47dbc84aa6ee403f3') in 0.030023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Furniture/office-desk/Stool_-_Marco_Maran_-_Barstool_X3_Leg.prefab
+  artifactKey: Guid(1e262ddc3c0a8eb49bf14126dd8e2a00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Stool_-_Marco_Maran_-_Barstool_X3_Leg.prefab using Guid(1e262ddc3c0a8eb49bf14126dd8e2a00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e516a422d208933419f99d37c51927f2') in 0.031957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Arik_Levy_-_Bend-in_Table_Top.prefab
+  artifactKey: Guid(0b6397f41b411cb4491afeaa9e49033c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Arik_Levy_-_Bend-in_Table_Top.prefab using Guid(0b6397f41b411cb4491afeaa9e49033c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9a4c69b84355621e40ed9a4fbe8e16d8') in 0.035678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Furniture/office-desk/Table_-_6_Star_Circular_-_Wood.prefab
+  artifactKey: Guid(acbd051d4fd2fec4fa9d8740708e927c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_6_Star_Circular_-_Wood.prefab using Guid(acbd051d4fd2fec4fa9d8740708e927c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '736ff21d3f43f9ad1ccedcf328e3fbe2') in 0.033725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Arik_Levy_-_Bend-in_Table_Legs.prefab
+  artifactKey: Guid(d678a75c690c5b64e980c91f96cc13f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Arik_Levy_-_Bend-in_Table_Legs.prefab using Guid(d678a75c690c5b64e980c91f96cc13f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20a032da995f2ec2121c44a494dfd133') in 0.034439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Arik_Levy_-_Bend-in_Table_Legs.prefab
+  artifactKey: Guid(d678a75c690c5b64e980c91f96cc13f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Arik_Levy_-_Bend-in_Table_Legs.prefab using Guid(d678a75c690c5b64e980c91f96cc13f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe59823eaa2b219b32b9d51e8c433acd') in 0.064728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture/office-desk/Stool_-_Marco_Maran_-_Barstool_X3_Leg.prefab
+  artifactKey: Guid(1e262ddc3c0a8eb49bf14126dd8e2a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Stool_-_Marco_Maran_-_Barstool_X3_Leg.prefab using Guid(1e262ddc3c0a8eb49bf14126dd8e2a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2be2d86b32861b5218f4513f593e92') in 0.078151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Furniture/office-desk/Table_-_6_Star_Super_Circular_-_Black_La.prefab
+  artifactKey: Guid(f047ab4a4b9c9e9439dc0233ad004ed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_6_Star_Super_Circular_-_Black_La.prefab using Guid(f047ab4a4b9c9e9439dc0233ad004ed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8504ce305e5b8fc4f15bccd89736ce22') in 0.027437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Furniture/office-desk/Stool_-_Blu_Dot_-_Knicker_Barstool_Seat.prefab
+  artifactKey: Guid(67f3e199330f17f409316448d5eafa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Stool_-_Blu_Dot_-_Knicker_Barstool_Seat.prefab using Guid(67f3e199330f17f409316448d5eafa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2085908c07e2be8c7c74d9b737c899') in 0.078758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Allain_Gilles_-_Tectonic_Table.prefab
+  artifactKey: Guid(2e6febae4d653954eae6de586b849662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Allain_Gilles_-_Tectonic_Table.prefab using Guid(2e6febae4d653954eae6de586b849662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3730b67eedbaa49118b2236e027a2f4') in 0.078612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Arik_Levy_-_Bend-in_Table_Top.prefab
+  artifactKey: Guid(0b6397f41b411cb4491afeaa9e49033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Arik_Levy_-_Bend-in_Table_Top.prefab using Guid(0b6397f41b411cb4491afeaa9e49033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a368173c9e69a1ed7b965665e956a605') in 0.082936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Furniture/office-desk/Stool_-_Pierre_Paulin_-_Mushroom_Stool_L.prefab
+  artifactKey: Guid(d3a6a8c3a2f10ea4e9bd326e29e194c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Stool_-_Pierre_Paulin_-_Mushroom_Stool_L.prefab using Guid(d3a6a8c3a2f10ea4e9bd326e29e194c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a81bf9ce0b1dfb0020583d554bd0245') in 0.025231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 8.045597 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ch316-18_-_Chrome.prefab
+  artifactKey: Guid(716914a78a0c9204c803533cfaa8ad7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Ch316-18_-_Chrome.prefab using Guid(716914a78a0c9204c803533cfaa8ad7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbcb2c52af4d5119568196daba5f0b0') in 0.106138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Cherner_Round_-_Natural_Wood.prefab
+  artifactKey: Guid(dd7054e9879fe134581b094ad5c0441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Cherner_Round_-_Natural_Wood.prefab using Guid(dd7054e9879fe134581b094ad5c0441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e436ea47cbc1c30c12fd7073fd73011') in 0.098781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ch316-18_-_Wood.prefab
+  artifactKey: Guid(fa575b3d4ff70514583911c5661d0d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Ch316-18_-_Wood.prefab using Guid(fa575b3d4ff70514583911c5661d0d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd0328a44eac789c8d86be2bf54b713') in 0.083726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.620690 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Cosmos_Tall_Round_-_Chrome.prefab
+  artifactKey: Guid(22cf080b50eb0ee40a1f043a399cfb36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Cosmos_Tall_Round_-_Chrome.prefab using Guid(22cf080b50eb0ee40a1f043a399cfb36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '590cb842523be78643db9a804afe7656') in 0.020130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ch327_-_Wood.prefab
+  artifactKey: Guid(13adb6ec83efac74184bbd70e4205078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Ch327_-_Wood.prefab using Guid(13adb6ec83efac74184bbd70e4205078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e647c1f0fff1a37c1137ebebe21036d') in 0.022048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ch316-18_-_Wood.prefab
+  artifactKey: Guid(fa575b3d4ff70514583911c5661d0d1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Ch316-18_-_Wood.prefab using Guid(fa575b3d4ff70514583911c5661d0d1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0034e5bdf93b02ae4599062ba937816a') in 0.022362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Cherner_Rectangle_-_Natural_Wood.prefab
+  artifactKey: Guid(05381c15a7dcb8b49ab368d7119ab766) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Cherner_Rectangle_-_Natural_Wood.prefab using Guid(05381c15a7dcb8b49ab368d7119ab766) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a913839fbeeef4a9dcae0a1d12c5e1bb') in 0.029171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Boss_Design_-_The_Rota_Table_-_L.prefab
+  artifactKey: Guid(2a35d6d8ca457d3498354826f62a8121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Boss_Design_-_The_Rota_Table_-_L.prefab using Guid(2a35d6d8ca457d3498354826f62a8121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5a2ecc9b28e06bc24e4b8ed84dc97fd') in 0.024176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Cosmos_Tall_Round_-_Black_Lamina.prefab
+  artifactKey: Guid(c73b37d268ceebf469d17231a862e269) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Cosmos_Tall_Round_-_Black_Lamina.prefab using Guid(c73b37d268ceebf469d17231a862e269) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62ea6a6a787f6a21f485db71dd22f648') in 0.025664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Cosmos_Tall_Square_-_Chrome.prefab
+  artifactKey: Guid(ef7e3da985f5f7f42885f7acc7271dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Cosmos_Tall_Square_-_Chrome.prefab using Guid(ef7e3da985f5f7f42885f7acc7271dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ae8995b0af8168ca87d0111b9e18fdb') in 0.023548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 20.240093 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Florence_Knoll_Oval_Large_-_Chro.prefab
+  artifactKey: Guid(b19069593b9ef084d9df9a4d9e284c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Florence_Knoll_Oval_Large_-_Chro.prefab using Guid(b19069593b9ef084d9df9a4d9e284c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca7617faef4bcf176510f8fb7a92279') in 0.107611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ice_Circular_-_Black_Laminate.prefab
+  artifactKey: Guid(85492ddb0707a6b439f9359fa232cb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Ice_Circular_-_Black_Laminate.prefab using Guid(85492ddb0707a6b439f9359fa232cb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5d56e9179d49564e10647df519c9d9') in 0.090595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Jean_Prouve_-_Compass_Table_Trim.prefab
+  artifactKey: Guid(7c2f25956765cc142a3be1041b4fc8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Jean_Prouve_-_Compass_Table_Trim.prefab using Guid(7c2f25956765cc142a3be1041b4fc8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ef5f884aeb201746d1c07efc215ec7') in 0.085837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ice_Rectangular_-_Chrome_Metal.prefab
+  artifactKey: Guid(6b667aafbdb57184ba6a3ee7fb2d4868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Ice_Rectangular_-_Chrome_Metal.prefab using Guid(6b667aafbdb57184ba6a3ee7fb2d4868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d741a56afc86e3bfb6341eb7e0e27df') in 0.084186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Glossy_Square_-_Chrome_Metal.prefab
+  artifactKey: Guid(e31a809dc56cec344b87ccfdcf80147c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Glossy_Square_-_Chrome_Metal.prefab using Guid(e31a809dc56cec344b87ccfdcf80147c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b671980c7b14cca4a287c678006dd42c') in 0.089178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Florence_Knoll_Round_-_Black_Lam.prefab
+  artifactKey: Guid(949fd6b0df80c5040a6c0c70ee868411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Florence_Knoll_Round_-_Black_Lam.prefab using Guid(949fd6b0df80c5040a6c0c70ee868411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcc27f8264c8fe223e8511fcc429767') in 0.087122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ice_Circular_-_White_Glass.prefab
+  artifactKey: Guid(2da3808394f5dee488afb4756a5aea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Ice_Circular_-_White_Glass.prefab using Guid(2da3808394f5dee488afb4756a5aea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710f40f724827013bcbe0d38d438ebe2') in 0.087595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Gehry_-_Easy_Edges_Table_Glass.prefab
+  artifactKey: Guid(9a5d856167fddde40a24fc1722927a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Gehry_-_Easy_Edges_Table_Glass.prefab using Guid(9a5d856167fddde40a24fc1722927a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b808e9cddb9b57962c6ef5e5c33f41') in 0.091955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Jean_Nouvel_-_Less_Table_Top.prefab
+  artifactKey: Guid(33a8127a66e1fc242bbbf07e9fb7ad6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Jean_Nouvel_-_Less_Table_Top.prefab using Guid(33a8127a66e1fc242bbbf07e9fb7ad6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492eb5ba2e79e2a01cb9968b928a47e4') in 0.086467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Gehry_-_Easy_Edges_Table_Glass.prefab
+  artifactKey: Guid(9a5d856167fddde40a24fc1722927a33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Gehry_-_Easy_Edges_Table_Glass.prefab using Guid(9a5d856167fddde40a24fc1722927a33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '32684cba3712bd128b1a8a43a7d8aa84') in 0.027919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Glossy_Oval_-_Red.prefab
+  artifactKey: Guid(04e7cc827e42b7c41aa41db8874acf8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Glossy_Oval_-_Red.prefab using Guid(04e7cc827e42b7c41aa41db8874acf8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a199888f5421dbe74b384552e1f5aa82') in 0.023111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Florence_Knoll_Oval_Large_-_Chro.prefab
+  artifactKey: Guid(b19069593b9ef084d9df9a4d9e284c4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Florence_Knoll_Oval_Large_-_Chro.prefab using Guid(b19069593b9ef084d9df9a4d9e284c4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6326eee570a7d1bbdbf0193bbc328786') in 0.027565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Florence_Knoll_Round_-_Black_Lam.prefab
+  artifactKey: Guid(949fd6b0df80c5040a6c0c70ee868411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Florence_Knoll_Round_-_Black_Lam.prefab using Guid(949fd6b0df80c5040a6c0c70ee868411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7223d6021ba05d2005939f4c9cc15de6') in 0.026290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Florence_Knoll_Round_-_Chrome.prefab
+  artifactKey: Guid(998f3184701ba23488edaceea6024450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Florence_Knoll_Round_-_Chrome.prefab using Guid(998f3184701ba23488edaceea6024450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67b2bad269562d3108f9c66c06917e7d') in 0.026999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Glossy_Square_-_Glossy_Red.prefab
+  artifactKey: Guid(798bd1e302ca24942b945df57bf2566d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Glossy_Square_-_Glossy_Red.prefab using Guid(798bd1e302ca24942b945df57bf2566d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '40084a946134929bbbcfe4bfd19fef16') in 0.022927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Jean_Nouvel_-_Less_Table_Top.prefab
+  artifactKey: Guid(33a8127a66e1fc242bbbf07e9fb7ad6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Jean_Nouvel_-_Less_Table_Top.prefab using Guid(33a8127a66e1fc242bbbf07e9fb7ad6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce18f2c4df20d6b7f1c964e316417f7b') in 0.022104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Jean_Prouve_-_Compass_Table_Leg.prefab
+  artifactKey: Guid(15f862361fc19614e94a2959e7c3ad36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Jean_Prouve_-_Compass_Table_Leg.prefab using Guid(15f862361fc19614e94a2959e7c3ad36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56640ed123c63bc4229a63dec805d87d') in 0.025127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Florence_Knoll_Oval_-_Chrome.prefab
+  artifactKey: Guid(56799880875ff3f46877493acd9d6544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Florence_Knoll_Oval_-_Chrome.prefab using Guid(56799880875ff3f46877493acd9d6544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8708505a32f8ac23189f42b02a715573') in 0.025588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Glossy_Round_-_Chrome.prefab
+  artifactKey: Guid(f91e5e6a946d1f44489735896554ed58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Glossy_Round_-_Chrome.prefab using Guid(f91e5e6a946d1f44489735896554ed58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '95b9307d7aa8727d5b9933ae01f0e202') in 0.021684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 10.359828 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Kartell_Maui_Oval_-_Navy_Black_M.prefab
+  artifactKey: Guid(745aa446230e05b4fb69148d1a62ae1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Kartell_Maui_Oval_-_Navy_Black_M.prefab using Guid(745aa446230e05b4fb69148d1a62ae1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86093406d7e0f12cf8cac3ba053ba0b') in 0.097587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Large_Pedestral_Base_Circular_To.prefab
+  artifactKey: Guid(016300325e14fd54eb25961714ec7447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Large_Pedestral_Base_Circular_To.prefab using Guid(016300325e14fd54eb25961714ec7447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18577f6a7181b9451c60f45abdcf12ae') in 0.089550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.721419 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Chrome.prefab
+  artifactKey: Guid(6f98c7893c67bea4aadf178dd5896e8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Chrome.prefab using Guid(6f98c7893c67bea4aadf178dd5896e8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26124d3f7d0a36e8048806e758ecf8e9') in 0.019607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Stainless_Ste.prefab
+  artifactKey: Guid(ad55d4e5d7e81ce4eb1374a5b2da722c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Stainless_Ste.prefab using Guid(ad55d4e5d7e81ce4eb1374a5b2da722c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb7db9678c19a04dadbfe8ada443362e') in 0.024212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Glass.prefab
+  artifactKey: Guid(b2fec291f369aba47ae0d68ab4db5511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Glass.prefab using Guid(b2fec291f369aba47ae0d68ab4db5511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f336a9a79c91c28fd877901f86e97d52') in 0.027721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Black_Laminate.prefab
+  artifactKey: Guid(03231978ea5dafc4581293644188e0cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Black_Laminate.prefab using Guid(03231978ea5dafc4581293644188e0cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd9ac64f789ec94cce49c8b6edaaaa2c') in 0.025147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_White_Laminate.prefab
+  artifactKey: Guid(fdcf91c69e93a5c42b277d1f3b182161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_White_Laminate.prefab using Guid(fdcf91c69e93a5c42b277d1f3b182161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc8921a5f7158544c0374795266c9600') in 0.024511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Pk54_-_Natural_Wood.prefab
+  artifactKey: Guid(f13894519f2d56545a59e00724a301c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Pk54_-_Natural_Wood.prefab using Guid(f13894519f2d56545a59e00724a301c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8cab468394ae2a2e6141617e22d9bc1e') in 0.027808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 12.091993 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Black_Laminate.prefab
+  artifactKey: Guid(03231978ea5dafc4581293644188e0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Black_Laminate.prefab using Guid(03231978ea5dafc4581293644188e0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a626a0aa727e4d5af1eb4193b5ea506f') in 0.059421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_White_Laminate.prefab
+  artifactKey: Guid(fdcf91c69e93a5c42b277d1f3b182161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_White_Laminate.prefab using Guid(fdcf91c69e93a5c42b277d1f3b182161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ec0d9fb362380df1d0bf4835142897') in 0.086646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Chrome_Metal.prefab
+  artifactKey: Guid(75f726c0783fc9442bf0d292a1dae79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Noguchi_Cyclone_-_Chrome_Metal.prefab using Guid(75f726c0783fc9442bf0d292a1dae79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90acd4b8234520d83299f1cd7051e1db') in 0.057762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 10.438082 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Glass 1.prefab
+  artifactKey: Guid(5d4688d18f450204f80c2c82c7ba0121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Glass 1.prefab using Guid(5d4688d18f450204f80c2c82c7ba0121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f7bc08dc95d5c12f55bd72357328f3') in 0.100465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Concrete 1.prefab
+  artifactKey: Guid(21a8bf1352e59ba40aa95c74af47f2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Concrete 1.prefab using Guid(21a8bf1352e59ba40aa95c74af47f2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717511aab311665330f141816ca7fb65') in 0.075698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_White_Laminate 1.prefab
+  artifactKey: Guid(d858e5a1dba57b140a51695056f22e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_White_Laminate 1.prefab using Guid(d858e5a1dba57b140a51695056f22e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814e520015ab78289c0b94650776446d') in 0.095801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Pk54_-_Natural_Wood 1.prefab
+  artifactKey: Guid(b28d3db69462cbd47bbbe39e8a24e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Pk54_-_Natural_Wood 1.prefab using Guid(b28d3db69462cbd47bbbe39e8a24e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36153d5a7dd1c2076f0d7be4bae3c9b3') in 0.091883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Chrome 1.prefab
+  artifactKey: Guid(a12f55d12e81a2140be3db600d80f16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Chrome 1.prefab using Guid(a12f55d12e81a2140be3db600d80f16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78578fe34a27f771080fd72f30adbc21') in 0.101694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Chrome 1.prefab
+  artifactKey: Guid(9d0adf1bce4f6de4d8ef957dbc56d189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Chrome 1.prefab using Guid(9d0adf1bce4f6de4d8ef957dbc56d189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3c77a3546e8eee65f1829dd538c7cf') in 0.117376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.291092 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Concrete 1.prefab
+  artifactKey: Guid(21a8bf1352e59ba40aa95c74af47f2d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Concrete 1.prefab using Guid(21a8bf1352e59ba40aa95c74af47f2d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d4a57f8198bdfab5760cbaf2d4deaa5') in 0.021767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Circular_-_Chrome.prefab
+  artifactKey: Guid(b3f0d39700af2f54a96a10cf3901d8ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Circular_-_Chrome.prefab using Guid(b3f0d39700af2f54a96a10cf3901d8ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45afa3fbd029209c9fd82775cd7ae64c') in 0.025490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Wood 1.prefab
+  artifactKey: Guid(22fd7b007632e8c43a4725d5f23e4cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Wood 1.prefab using Guid(22fd7b007632e8c43a4725d5f23e4cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64a5d453b57b41edfaba5aa92fde812b') in 0.028725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Chrome 1.prefab
+  artifactKey: Guid(a12f55d12e81a2140be3db600d80f16e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Chrome 1.prefab using Guid(a12f55d12e81a2140be3db600d80f16e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c66bb4ba45c54f15a1b95596f09cfbf7') in 0.028577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture/office-desk/Table_-_X_-_Wood.prefab
+  artifactKey: Guid(112b143ab2eb22e40bd9cebf9b1e1ffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_X_-_Wood.prefab using Guid(112b143ab2eb22e40bd9cebf9b1e1ffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8103371420ceee5cd403cf4432626384') in 0.029307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Circular_-_Wood.prefab
+  artifactKey: Guid(f0a6c3cd875008d42b8150fba18c87bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Circular_-_Wood.prefab using Guid(f0a6c3cd875008d42b8150fba18c87bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90c8fc02918e5dc96965f79b40461c94') in 0.028105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Furniture/office-desk/Talble_-_Ice_Square_-_Chrome.prefab
+  artifactKey: Guid(d6d2f99a17dfbf34e8a5d0123f5bc3b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Talble_-_Ice_Square_-_Chrome.prefab using Guid(d6d2f99a17dfbf34e8a5d0123f5bc3b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f4263d62eb68f7f2257ee2a59ccce40') in 0.026635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Large_Pedestral_Base_Circular_To 1.prefab
+  artifactKey: Guid(1d33e6d985e29cf4589702382db8bb50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Large_Pedestral_Base_Circular_To 1.prefab using Guid(1d33e6d985e29cf4589702382db8bb50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ba39079c25c083c77ae2c10dd5ce6ce') in 0.021043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Tossa_Team_-_Exo_Table_Legs.prefab
+  artifactKey: Guid(7a828e83db18060409338200caf406b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Tossa_Team_-_Exo_Table_Legs.prefab using Guid(7a828e83db18060409338200caf406b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc4593dd3c6c9a615ea908ca35662764') in 0.026596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Furniture/office-desk/Table_-_X_-_Chrome.prefab
+  artifactKey: Guid(e1c734ac74183e44a8550198f74276ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_X_-_Chrome.prefab using Guid(e1c734ac74183e44a8550198f74276ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd473216542d5ab2034de8cb454ad876a') in 0.037074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Black_Metal 1.prefab
+  artifactKey: Guid(db45a41f0c9442b4ca09a88e69b97644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Black_Metal 1.prefab using Guid(db45a41f0c9442b4ca09a88e69b97644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '546eb494bec7a33bfc63f8935b9f056e') in 0.030768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Furniture/office-desk/Talble_-_82_-_Black_Laminate.prefab
+  artifactKey: Guid(24b967ee0dc603e4fae6ce7d18466049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Talble_-_82_-_Black_Laminate.prefab using Guid(24b967ee0dc603e4fae6ce7d18466049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64a1aa714d031453f5bd7a0ab7e5a02e') in 0.022596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 12.344631 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Eliliptical_Span_Leg_-_Red.prefab
+  artifactKey: Guid(e4cf190247f26a240b8bbf7e280d325b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Eliliptical_Span_Leg_-_Red.prefab using Guid(e4cf190247f26a240b8bbf7e280d325b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf297cf7ef1ef8f3ec4392035f402644') in 0.061782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_B.prefab
+  artifactKey: Guid(0916a3f10d8355d44bdf754e4c98362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Elliptical_6_Star_Base_-_B.prefab using Guid(0916a3f10d8355d44bdf754e4c98362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5336894db1d61aed813ce477131f6c40') in 0.073169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Tossa_Team_-_Exo_Table_Legs.prefab
+  artifactKey: Guid(7a828e83db18060409338200caf406b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Tossa_Team_-_Exo_Table_Legs.prefab using Guid(7a828e83db18060409338200caf406b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b0a049e0fba7dd98b8a44ca382a007') in 0.064261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ta04_Bigfoot_-_Wood.prefab
+  artifactKey: Guid(5090037e03fcdb34c878479e70e702f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Ta04_Bigfoot_-_Wood.prefab using Guid(5090037e03fcdb34c878479e70e702f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c40edd0faeb49fb5b96116df63e42d') in 0.049911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.021317 seconds.
+  path: Assets/Furniture/office-desk/Talble_-_Ice_Square_-_Black_Laminate.prefab
+  artifactKey: Guid(bc6665ec1a581164c97db21a65334514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Talble_-_Ice_Square_-_Black_Laminate.prefab using Guid(bc6665ec1a581164c97db21a65334514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c74172935920f1a8666a1f230e00ef') in 0.078720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 3.242255 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Chrome 2.prefab
+  artifactKey: Guid(eacac677b08041d4083fbcbfd4d3ac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Chrome 2.prefab using Guid(eacac677b08041d4083fbcbfd4d3ac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a880caaf3b639427a3eac4953b6a5bf') in 0.082322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Prouvé_Guéridon_-_Black_Metal.prefab
+  artifactKey: Guid(db2495301a5e4be4598c62120d35aeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Prouvé_Guéridon_-_Black_Metal.prefab using Guid(db2495301a5e4be4598c62120d35aeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e49539a2e302c13c5ed2f72c3a8ac8e') in 0.090096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Wood 2.prefab
+  artifactKey: Guid(62dead93d2357604a9169b3b4d992984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Wood 2.prefab using Guid(62dead93d2357604a9169b3b4d992984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b90fc7b8df68296fe89e98167f892b8') in 0.086472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Plate_Dining_-_Chrome.prefab
+  artifactKey: Guid(80019193bbfd20140920038bdc79a72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Plate_Dining_-_Chrome.prefab using Guid(80019193bbfd20140920038bdc79a72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faaa5bc4a748fa6145f04944ae3a2d8a') in 0.086851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Pk54_-_Alabaster 2.prefab
+  artifactKey: Guid(218930db2de184249aa83901706a568f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Pk54_-_Alabaster 2.prefab using Guid(218930db2de184249aa83901706a568f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fefe38a518dd450eaa262e5da824e59') in 0.079428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.429783 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Slider_Dining_-_Wood.prefab
+  artifactKey: Guid(15e3b90146f1bb04a97642df3286bcbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Slider_Dining_-_Wood.prefab using Guid(15e3b90146f1bb04a97642df3286bcbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '894d6e9b382a37632786331378ad86ae') in 0.025156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Glossy_Round_-_Red 3.prefab
+  artifactKey: Guid(ef7842afc7ba79b42a05f27dcc3fac28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Glossy_Round_-_Red 3.prefab using Guid(ef7842afc7ba79b42a05f27dcc3fac28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b039f3b7edc74e9a740d11dc4008fbf4') in 0.031194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Tossa_Team_-_Exo_Table_Legs 1.prefab
+  artifactKey: Guid(ac6222d0b4f327a449dcc1c4ea570fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Tossa_Team_-_Exo_Table_Legs 1.prefab using Guid(ac6222d0b4f327a449dcc1c4ea570fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81ebefbb8e6ea528b4178088bdfdcad1') in 0.033740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Nick_Dining_-_Natural_Wood 2.prefab
+  artifactKey: Guid(9e9aff783ff585141b7e3b43a08ba8a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Nick_Dining_-_Natural_Wood 2.prefab using Guid(9e9aff783ff585141b7e3b43a08ba8a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ebacd86e539f585c44bc823f133a714') in 0.029480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Plate_Dining_-_Chrome.prefab
+  artifactKey: Guid(80019193bbfd20140920038bdc79a72e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Plate_Dining_-_Chrome.prefab using Guid(80019193bbfd20140920038bdc79a72e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a90feaaba37ed59c8866c9f2b4754e4') in 0.031396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Saarinen_62_Dia_-_White_Laminate.prefab
+  artifactKey: Guid(6e67f04046f54bd4cae5208d07baa94c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Saarinen_62_Dia_-_White_Laminate.prefab using Guid(6e67f04046f54bd4cae5208d07baa94c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e68f9742f794388ec56dd00f4477401') in 0.026765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Square_4_Star_-_Wood.prefab
+  artifactKey: Guid(16833c9538cf26646944f3f610ed9586) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Square_4_Star_-_Wood.prefab using Guid(16833c9538cf26646944f3f610ed9586) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd23ea89e8098a66045d51e150e67c9c3') in 0.026144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Chrome 2.prefab
+  artifactKey: Guid(f261677f537e50a439b35b3663292073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Plano_Dining_-_Chrome 2.prefab using Guid(f261677f537e50a439b35b3663292073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fce4a18dd5e1c287172a617db930afe9') in 0.030835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Concrete 2.prefab
+  artifactKey: Guid(ed31ddc810829344a8a1f70d7bd2d7b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_Concrete 2.prefab using Guid(ed31ddc810829344a8a1f70d7bd2d7b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34893e673e1fcae82b4d6b46f2ef91b1') in 0.032278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Furniture/office-desk/Table_-_One_Bistrot_-_White_Laminate 2.prefab
+  artifactKey: Guid(91d198a0e0165c047aae0f9f6ecb84d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_One_Bistrot_-_White_Laminate 2.prefab using Guid(91d198a0e0165c047aae0f9f6ecb84d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96f4c08a0ae6e99a3ac2c972fd05766e') in 0.028601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Rectangular_Span_Leg_-_White_Lam.prefab
+  artifactKey: Guid(9a10ca8d2ea771f4eadf405e4d3e0d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Rectangular_Span_Leg_-_White_Lam.prefab using Guid(9a10ca8d2ea771f4eadf405e4d3e0d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b78377de12d64038195c045dd3093575') in 0.029750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Pk54_-_Natural_Wood 2.prefab
+  artifactKey: Guid(f2f83c61d19a65b498f1eaa8ffcb96bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Pk54_-_Natural_Wood 2.prefab using Guid(f2f83c61d19a65b498f1eaa8ffcb96bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c98a7082a0e6f3ed110b7ef56c796925') in 0.029985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Kartell_Maui_-_Navy_Black_Metal 2.prefab
+  artifactKey: Guid(32c9165240938724eb1473473be9c98c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Kartell_Maui_-_Navy_Black_Metal 2.prefab using Guid(32c9165240938724eb1473473be9c98c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71101afadc3957ee2948104790acd605') in 0.031825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Glass 2.prefab
+  artifactKey: Guid(0e7a08fb0ae4ad74f82add4dc97be3e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Le_Corbusier_Lc6_-_Glass 2.prefab using Guid(0e7a08fb0ae4ad74f82add4dc97be3e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a693597a11c8955ecba7259aa0f055a') in 0.036166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Prouvé_Em_-_Black_Frame.prefab
+  artifactKey: Guid(3fbbe063f68f3a04c9f6bf87ad20ed64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Prouvé_Em_-_Black_Frame.prefab using Guid(3fbbe063f68f3a04c9f6bf87ad20ed64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59329b98391596ff6590712e739c5dfb') in 0.029374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Circular_-_Black_Laminate 1.prefab
+  artifactKey: Guid(88a447ff72098ef4b9f62273bbc59c38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Circular_-_Black_Laminate 1.prefab using Guid(88a447ff72098ef4b9f62273bbc59c38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab2cdba0b9017e3d183dfc53fcf9e5ca') in 0.027659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Furniture/office-desk/Table_-_X_-_Chrome 1.prefab
+  artifactKey: Guid(1d1b76b9e8233f64cba7045b2b4935b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_X_-_Chrome 1.prefab using Guid(1d1b76b9e8233f64cba7045b2b4935b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39eab12be3cd9940094828f1974c654a') in 0.032304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Saarinen_96x54_-_White_Laminate.prefab
+  artifactKey: Guid(611729839e8509548808e6e99cfff7a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Saarinen_96x54_-_White_Laminate.prefab using Guid(611729839e8509548808e6e99cfff7a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd59221851d8bfbcdb354b6c5be4da4e') in 0.026596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Furniture/office-desk/Talble_-_Ice_Square_-_Black_Laminate 1.prefab
+  artifactKey: Guid(e5226b72255a83f47ad59b9a6ffeb097) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Talble_-_Ice_Square_-_Black_Laminate 1.prefab using Guid(e5226b72255a83f47ad59b9a6ffeb097) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09e8ad41cde842e6693a08f41575035b') in 0.033899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Square_Span_Leg_-_Chrome.prefab
+  artifactKey: Guid(345399db93fee0743879cfa42fec84c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Table_-_Square_Span_Leg_-_Chrome.prefab using Guid(345399db93fee0743879cfa42fec84c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28d847ac80aec231d0e983dad614a6e6') in 0.029095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Furniture/office-desk/Talble_-_82_-_Wood 1.prefab
+  artifactKey: Guid(8686055d5718afd47a6f19d880c4fd73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Furniture/office-desk/Talble_-_82_-_Wood 1.prefab using Guid(8686055d5718afd47a6f19d880c4fd73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81d508d0407dec74ae58288361da448f') in 0.027709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 24.638915 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Rectangular_Span_Leg_-_White_Lam.prefab
+  artifactKey: Guid(9a10ca8d2ea771f4eadf405e4d3e0d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Rectangular_Span_Leg_-_White_Lam.prefab using Guid(9a10ca8d2ea771f4eadf405e4d3e0d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a678d131719cc388c4ed5467bb9a7085') in 0.078615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Slider_Dining_-_Wood.prefab
+  artifactKey: Guid(15e3b90146f1bb04a97642df3286bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Slider_Dining_-_Wood.prefab using Guid(15e3b90146f1bb04a97642df3286bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c2d7648942a5ea93019fe5a78e1c0d') in 0.083799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Circular_-_Wood 1.prefab
+  artifactKey: Guid(740b256c301fd9e4aa46d5ab33bcde58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Circular_-_Wood 1.prefab using Guid(740b256c301fd9e4aa46d5ab33bcde58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4743c88d47358d0ab7c69d81b818497') in 0.078641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Square_4_Star_-_Black_Laminate.prefab
+  artifactKey: Guid(1b4afa3b0e785f445ab6d2f7389cbd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Square_4_Star_-_Black_Laminate.prefab using Guid(1b4afa3b0e785f445ab6d2f7389cbd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d39accb93a0afb1771e2bad5fb81e90') in 0.079859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Super_Eliliptical_Span_Leg_-_Chr 1.prefab
+  artifactKey: Guid(d31fd5d37424aa741aebe37a6ad52395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Super_Eliliptical_Span_Leg_-_Chr 1.prefab using Guid(d31fd5d37424aa741aebe37a6ad52395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9898ae20892344a10309435a6ba92daf') in 0.079373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Sprout_Dining_-_Chrome.prefab
+  artifactKey: Guid(067e2f9794996094ea438229ad057b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Sprout_Dining_-_Chrome.prefab using Guid(067e2f9794996094ea438229ad057b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d98b2674ef07482c80ccbc6a484235') in 0.080793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Russel_Dining_-_Wood.prefab
+  artifactKey: Guid(5132dd170eafe8243a18cbdad0a3fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Russel_Dining_-_Wood.prefab using Guid(5132dd170eafe8243a18cbdad0a3fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21c2162e69614481e25983adaf53c4f') in 0.078044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Ta04_Bigfoot_-_Wood 1.prefab
+  artifactKey: Guid(fa683b7b4ef32e04d84b9f128f4a2db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Ta04_Bigfoot_-_Wood 1.prefab using Guid(fa683b7b4ef32e04d84b9f128f4a2db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef867e2314aaa90f6944387fd46a3762') in 0.083778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Saarinen_45_Dia_-_White_Laminate.prefab
+  artifactKey: Guid(44f18cddcdcd00843a316410886e7efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Saarinen_45_Dia_-_White_Laminate.prefab using Guid(44f18cddcdcd00843a316410886e7efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50af87bf7ecc7b9c4383fb2ca1d2dee') in 0.085125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Tossa_Team_-_Exo_Table_Legs 1.prefab
+  artifactKey: Guid(ac6222d0b4f327a449dcc1c4ea570fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Tossa_Team_-_Exo_Table_Legs 1.prefab using Guid(ac6222d0b4f327a449dcc1c4ea570fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff001897552ffff287b0efb1076e2881') in 0.086154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Sprout_Dining_-_Black_Laminate.prefab
+  artifactKey: Guid(3016d2b909d27b24e93fbe86e0800b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Sprout_Dining_-_Black_Laminate.prefab using Guid(3016d2b909d27b24e93fbe86e0800b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf53605e0d35a3cc9823443142118b5c') in 0.089420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 1.171493 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Maarten_Van_Severen_-_Wood_Table 2.prefab
+  artifactKey: Guid(cc45da8f3418de04b95137d24391974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Maarten_Van_Severen_-_Wood_Table 2.prefab using Guid(cc45da8f3418de04b95137d24391974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df881a97d53156cf60b6ec705438d424') in 0.084956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Nick_Dining_-_Natural_Wood 2.prefab
+  artifactKey: Guid(9e9aff783ff585141b7e3b43a08ba8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Nick_Dining_-_Natural_Wood 2.prefab using Guid(9e9aff783ff585141b7e3b43a08ba8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e583fd89307a3debbaa543c3fea89c8d') in 0.057768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.339809 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Large_Pedestral_Base_Circular_To 2.prefab
+  artifactKey: Guid(c2a9356e9b4c70d4d9dcf6fde0e93795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Large_Pedestral_Base_Circular_To 2.prefab using Guid(c2a9356e9b4c70d4d9dcf6fde0e93795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e8f4445c7f4efb4540e88690dffebe') in 0.077141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+========================================================================
+Received Import Request.
+  Time since last request: 0.018957 seconds.
+  path: Assets/Furniture/office-desk/Table_-_Kartell_Maui_-_Navy_Black_Metal 2.prefab
+  artifactKey: Guid(32c9165240938724eb1473473be9c98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/office-desk/Table_-_Kartell_Maui_-_Navy_Black_Metal 2.prefab using Guid(32c9165240938724eb1473473be9c98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafea46d7b8496aba1c3942250d7ab59') in 0.087072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 919
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
